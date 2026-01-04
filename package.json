@@ -2,11 +2,11 @@
   "name": "auth-service",
   "version": "1.0.0",
   "description": "Authentication microservice with JWT",
-  "main": "dist/app.js",
+  "main": "dist/src/app.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/app.ts",
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "node dist/src/app.js",
     "test": "jest --coverage"
   },
   "dependencies": {
